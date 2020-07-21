@@ -1,16 +1,24 @@
-:: MultiMeta Install Tool
-:: Creates MultiMeta Directory, Desktop shortcut, Start menu entry
-:: Moves all Files to %installdir%
+rem MultiMeta Install Tool
+rem Creates MultiMeta Directory, Desktop shortcut, Start menu entry
+rem Copies all Files to %installdir%
 
+:: keep it silent
 @echo off
-set startmenu="%appdata%\Microsoft\Windows\Start Menu\Programs\MultiMeta"
+
+:: Keep it variable for future changes
 set installdir="C:\MultiMeta"
 
-
-mkdir "%startmenu%"
+:: Create directory for start menu entry
+mkdir "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MultiMeta"
+:: Create program/working directory
 mkdir "%installdir%\Tool\Work"
-move /y "%cd%\Tool" "%installdir%"
+:: Copy everything from current directory to program directory
+copy /y "%cd%" "%installdir%\Tool\"
+:: Move uninstall script one up to enable complete removal of MultiMeta's directories
 move /y "%installdir%\Tool\uninstall_MultiMeta.bat" "%installdir%"
+:: Copy shortcut to start menu directory
 copy "%installdir%\Tool\MultiMeta.lnk" "%appdata%\Microsoft\Windows\Start Menu\Programs\MultiMeta"
+:: Copy shortcut to Desktop (Windows365 environment)
 copy "%installdir%\Tool\MultiMeta.lnk" "%OneDrive%\Desktop"
+:: Copy shortcut to Desktop (local User)
 copy "%installdir%\Tool\MultiMeta.lnk" "%Userprofile%\Desktop"
