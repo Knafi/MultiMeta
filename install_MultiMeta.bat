@@ -1,5 +1,6 @@
 :: MultiMeta Install Tool
 :: Creates MultiMeta Directory, Desktop shortcut, Start menu entry
+:: Copies all Files to %installdir%
 
 set startmenu=%appdata%\Microsoft\Windows\Start Menu\Programs\MultiMeta
 set installdir=C:\MultiMeta\Tool\
