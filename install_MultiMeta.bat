@@ -8,7 +8,7 @@ set installdir="C:\MultiMeta"
 
 
 mkdir "%startmenu%"
-mkdir "%installdir%"
+mkdir "%installdir%\Tool\Work"
 move /y "%cd%\Tool" "%installdir%"
 move /y "%installdir%\Tool\uninstall_MultiMeta.bat" "%installdir%"
 copy "%installdir%\Tool\MultiMeta.lnk" "%appdata%\Microsoft\Windows\Start Menu\Programs\MultiMeta"
