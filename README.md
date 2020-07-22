@@ -11,7 +11,7 @@ The computers we use on site are heavily restricted by our Administrators and ar
 ## What does MultiMeta
 
 ## Install
-In order to install MultiMeta just you have to execute the **install_MultiMeta.bat** from the downloaded directory.
+In order to install MultiMeta you just have to execute the **install_MultiMeta.bat** from the downloaded directory.
 This script will do the following:
 - Create directory *C:\MultiMeta* and copy everything from the downloaded zip to *C:\MultiMeta\Tool*
 - Create start menu entry under *%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MultiMeta*
