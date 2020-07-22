@@ -22,20 +22,28 @@ Give credit where credit is due
 
 Multiple Colors in Batch File:
 - https://stackoverflow.com/a/38617204
-- https://docs.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences?redirectedfrom=MSDN
+> Jens A. Koch
+- https://github.com/MicrosoftDocs/Console-Docs/blob/master/docs/console-virtual-terminal-sequences.md
+> miniksa, bitcrazed, DanielRosenwasser, GoBigorGoHome, VSC-Service-Account, craigloewenms, Vap0r1ze, zadjii-msft, mattwojo, JPRuskin
 
 Folder Browser - dialog:
 - https://stackoverflow.com/a/15885133
+> rojo
 - https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.folderbrowserdialog?redirectedfrom=MSDN&view=netframework-4.8
+> mairaw, VSC-Service-Account, TianqiZhang, yishengjin1413, dend, BillWagner, mkwhalen, jkotas, gewarren
 
 Progress as window title:
 - https://gist.github.com/Archigos/0e34219b4a8b82358bb0
+> Archigos
 
 Deletion of self and parent directory: 
 - https://stackoverflow.com/a/17180982
+> BILL
 
 Convertion from CSV to HTML table:
-- https://www.computerhope.com/forum/index.php?topic=160315.0
+- https://www.computerhope.com/forum/index.php/topic,160315.msg961200.html#msg961200
+> Hackoo
 
 Metadata analysis:
 - https://mediaarea.net/en/MediaInfo
+>  Jérôme Martinez and Team
