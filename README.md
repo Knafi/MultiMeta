@@ -20,12 +20,11 @@ The computers we use on site are heavily restricted by our Administrators and ar
 I had to search the web alot as I am neither a developer nor a programmer.\
 Give credit where credit is due.
   
-**Multiple Colors in Batch File:**
-> Jens A. Koch
-- https://stackoverflow.com/a/38617204
-> miniksa, bitcrazed, DanielRosenwasser, GoBigorGoHome, VSC-Service-Account, craigloewenms, Vap0r1ze, zadjii-msft, mattwojo, JPRuskin
+**Multiple Colors in Batch File:**  
+Jens A. Koch
+- https://stackoverflow.com/a/38617204  
+miniksa, bitcrazed, DanielRosenwasser, GoBigorGoHome, VSC-Service-Account, craigloewenms, Vap0r1ze, zadjii-msft, mattwojo, JPRuskin  
 - https://github.com/MicrosoftDocs/Console-Docs/blob/master/docs/console-virtual-terminal-sequences.md  
-
 
 
 **Folder Browser - dialog:**
