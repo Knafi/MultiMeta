@@ -6,6 +6,7 @@ rem Copies all Files to %installdir%
 @echo off
 
 :: Keep it variable for future changes
+:: If changed here, needs adapted accordingly in MultiMeta.bat and MultiMeta.odc
 set installdir="C:\MultiMeta"
 
 :: Create directory for start menu entry
