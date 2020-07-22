@@ -21,17 +21,19 @@ I had to search the web alot as I am neither a developer nor a programmer.\
 Give credit where credit is due.
   
 **Multiple Colors in Batch File:**
-- https://stackoverflow.com/a/38617204
 > Jens A. Koch
-- https://github.com/MicrosoftDocs/Console-Docs/blob/master/docs/console-virtual-terminal-sequences.md
+- https://stackoverflow.com/a/38617204
 > miniksa, bitcrazed, DanielRosenwasser, GoBigorGoHome, VSC-Service-Account, craigloewenms, Vap0r1ze, zadjii-msft, mattwojo, JPRuskin
+- https://github.com/MicrosoftDocs/Console-Docs/blob/master/docs/console-virtual-terminal-sequences.md  
+
 
 
 **Folder Browser - dialog:**
-- https://stackoverflow.com/a/15885133
 > rojo
-- https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.folderbrowserdialog?redirectedfrom=MSDN&view=netframework-4.8
+- https://stackoverflow.com/a/15885133
 > mairaw, VSC-Service-Account, TianqiZhang, yishengjin1413, dend, BillWagner, mkwhalen, jkotas, gewarren
+- https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.folderbrowserdialog?redirectedfrom=MSDN&view=netframework-4.8  
+  
 
 
 **Progress as window title:**
@@ -39,7 +41,7 @@ Give credit where credit is due.
 > Archigos
 
 
-**Deletion of self and parent directory: **
+**Deletion of self and parent directory:**
 - https://stackoverflow.com/a/17180982
 > BILL
 
