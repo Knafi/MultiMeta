@@ -11,7 +11,7 @@ The computers we use on site are heavily restricted by our Administrators and ar
 ## What does MultiMeta
 
 ## Install
-To order to install MultiMeta just you have to execute the **install_MultiMeta.bat** from the downloaded directory.
+In order to install MultiMeta just you have to execute the **install_MultiMeta.bat** from the downloaded directory.
 This script will do the following:
 - Create directory *C:\MultiMeta* and copy everything from the downloaded zip to *C:\MultiMeta\Tool*
 - Create start menu entry under *%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MultiMeta*
@@ -21,6 +21,12 @@ This script will do the following:
 ## Usage
 
 ## Uninstall
+Uninstall is easily done with executing **uninstall.MultiMeta.bat** under *C:\MultiMeta\*.
+This script will have the following effects:
+- Desktop shortcuts (local and Windows365) will get deleted
+- Temp files will get deleted
+- Start menu entry will get deleted
+- Explorer.exe will get stopped, program directory and the uninstall script will get deleted and Explorer.exe will get restarted
 
 ## Credits
 I had to search the web alot as I am neither a developer nor a programmer.\
