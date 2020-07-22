@@ -21,7 +21,7 @@ This script will do the following:
 ## Usage
 
 ## Uninstall
-Uninstall is easily done with executing **uninstall.MultiMeta.bat** under *C:\MultiMeta\*.
+Uninstall is easily done with executing **uninstall_MultiMeta.bat** under *C:\MultiMeta\*.
 This script will have the following effects:
 - Desktop shortcuts (local and Windows365) will get deleted
 - Temp files will get deleted
