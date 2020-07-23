@@ -55,6 +55,11 @@ Similiar english version.
 I had to search the web alot as I am neither a developer nor a programmer.\
 Give credit where credit is due.
   
+**Metadata analysis:**  
+This product uses [MediaInfo library](https://mediaarea.net/en/MediaInfo), Copyright (c) 2002-2020 [MediaArea.net SARL](info@mediaarea.net).  
+- https://mediaarea.net/en/MediaInfo  
+Jérôme Martinez and Team  
+  
 **Multiple Colors in Batch File:**  
 - https://stackoverflow.com/a/38617204  
 Jens A. Koch  
@@ -78,8 +83,3 @@ BILL
 **Convertion from CSV to HTML table:**  
 - https://www.computerhope.com/forum/index.php/topic,160315.msg961200.html#msg961200  
 Hackoo  
-
-**Metadata analysis:**  
-This product uses [MediaInfo library](https://mediaarea.net/en/MediaInfo), Copyright (c) 2002-2020 [MediaArea.net SARL](info@mediaarea.net).  
-- https://mediaarea.net/en/MediaInfo  
-Jérôme Martinez and Team
