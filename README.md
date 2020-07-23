@@ -80,5 +80,6 @@ BILL
 Hackoo  
 
 **Metadata analysis:**  
+This product uses [MediaInfo library](https://mediaarea.net/en/MediaInfo), Copyright (c) 2002-2020 [MediaArea.net SARL](info@mediaarea.net).  
 - https://mediaarea.net/en/MediaInfo  
 Jérôme Martinez and Team
