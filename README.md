@@ -25,10 +25,10 @@ From here on you can print, print to PDF or open the report in Excel.
 ## Install
 In order to install MultiMeta you just have to execute the **install_MultiMeta.bat** from the downloaded directory.
 This script will do the following:
-- Create directory *C:\MultiMeta* and copy everything from the downloaded zip to *C:\MultiMeta\Tool*
+- Create directory *C:\MultiMeta* and copy everything from the downloaded zip to *C:\MultiMeta\Tool* (not yet interactive)
 - Create start menu entry under *%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MultiMeta*
-- Move *uninstall_MultiMeta.bat* up one directory for clean uninstall
-- Copy shortcut to Desktop for local user and for Windows365 environment
+- Move *uninstall_MultiMeta.bat* up one directory for clean uninstall (might get fixed)
+- Copy shortcut to Desktop for local user and for Windows365 environment (not yet interactive)
 
 ## Usage
 
@@ -38,7 +38,7 @@ This script will have the following effects:
 - Desktop shortcuts (local and Windows365) will get deleted
 - Temp files will get deleted
 - Start menu entry will get deleted
-- Explorer.exe will get stopped, program directory and the uninstall script will get deleted and Explorer.exe will get restarted
+- Explorer.exe will get stopped, program directory and the uninstall script will get deleted and Explorer.exe will get restarted (cleanest way so far)
 
 ## Useful Links
 I came across multiple website that helped me during development. Here are some of them. The rest is listed under Credits.  
