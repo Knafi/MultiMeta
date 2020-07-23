@@ -7,7 +7,7 @@ The computers we use on site are heavily restricted by our Administrators and ar
 
 
 ## What does MultiMeta
-With MultiMeta it is possible to use MediaInfo on a whole directory tree. You get asked to choose the parent directory and everything inside said directory will get analysed and reported with your set parameters (not yet interactive). Right now those parameters are:  
+With MultiMeta it is possible to use MediaInfo on a whole directory tree. You get asked to choose the parent directory and everything (checked against a whitelist) inside said directory will get analysed and reported with your set parameters (not yet interactive). Right now those parameters are:  
 - Filename (with full path), 
 - Filesize
 - Duration
