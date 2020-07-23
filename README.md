@@ -7,6 +7,18 @@ The computers we use on site are heavily restricted by our Administrators and ar
 
 
 ## What does MultiMeta
+With MultiMeta it is possible to use MediaInfo on a whole directory tree. You get asked to choose the parent directory and everything inside said directory will get analysed and reported with your set parameters (not yet interactive). Right now those parameters are:  
+- Filename (with full path), 
+- Filesize
+- Duration
+- Resolution
+- FPS
+- Scan-Type
+- Format  
+
+At the end a HTML page with the report will open in your standard browser.
+From here on you can print, print to PDF or open the report in Excel.
+
 
 ## Install
 In order to install MultiMeta you just have to execute the **install_MultiMeta.bat** from the downloaded directory.
@@ -25,6 +37,19 @@ This script will have the following effects:
 - Temp files will get deleted
 - Start menu entry will get deleted
 - Explorer.exe will get stopped, program directory and the uninstall script will get deleted and Explorer.exe will get restarted
+
+## Useful Links
+I came across multiple website that helped me during development. Here are some of them. The rest is listed under Credits.  
+- https://ss64.com/nt/  
+on SS64 and its forum I learnt alot about Dos and Don'ts with Batch. This is my Goto ressource when it comes to Batch.  
+The forum provides many tricks and interresting ideas. Definately worth a read.  
+- https://www.robvanderwoude.com/  
+Rob van der Woude provides very helpful informations on his site. He has many code examples which have perfect desciptions how they work.  
+- https://de.wikibooks.org/wiki/Batch-Programmierung  
+German Wikibook.  
+- https://en.wikibooks.org/wiki/Windows_Batch_Scripting  
+Similiar english version.  
+
 
 ## Credits
 I had to search the web alot as I am neither a developer nor a programmer.\
