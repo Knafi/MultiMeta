@@ -32,6 +32,8 @@ This script will do the following:
 
 ## Usage
 
+![MultiMeta](MultiMeta_usage.gif)
+
 ## Uninstall
 Uninstall is easily done with executing **uninstall_MultiMeta.bat** under *C:\MultiMeta*.
 This script will have the following effects:
