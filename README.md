@@ -32,7 +32,8 @@ This script will do the following:
 
 ## Usage
 
-![MultiMeta](MultiMeta_usage.gif)
+![MultiMeta](MultiMeta_usage.gif)  
+(ca.45s after klick on OK for 94 Files on local Drive)
 
 ## Uninstall
 Uninstall is easily done with executing **uninstall_MultiMeta.bat** under *C:\MultiMeta*.
