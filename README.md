@@ -5,7 +5,7 @@ The commandline version of [MediaInfo](https://mediaarea.net/en/MediaInfo) is us
 
 ![MultiMeta](MultiMeta_Gui.JPG)
 
-The computers we use on site are heavily restricted by our Administrators and are also part of an Office365 environment which forced the use of many *workarounds* to not trigger the UAC. The biggest restriction was not beeing able to install anything. Which brought up the interesting challenge of using Batch *only*
+The computers we use on site are heavily restricted by our Administrators and are also part of an Office365 environment which forced the use of many workarounds to not trigger the UAC. The biggest restriction was not beeing able to install anything. Which brought up the interesting challenge of using Batch only
 
 
 ## What does MultiMeta
