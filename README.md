@@ -18,22 +18,22 @@ With MultiMeta it is possible to use MediaInfo on a whole directory tree. You ge
 - Scan-Type
 - Format  
 
-At the end a HTML page with the report will open in your standard browser.
+Once the analysing part is complete a HTML page with the report will open in your standard browser.
 From here on you can print, print to PDF or open the report in Excel.
 
 
 ## Install
-In order to install MultiMeta you just have to execute the **install_MultiMeta.bat** from the downloaded directory.
+In order to install MultiMeta you have to execute the **install_MultiMeta.bat** from the downloaded directory.
 This script will do the following:
-- Create directory *C:\MultiMeta* and copy everything from the downloaded zip to *C:\MultiMeta\Tool* (not yet interactive)
-- Create start menu entry under *%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MultiMeta*
-- Move *uninstall_MultiMeta.bat* up one directory for clean uninstall (might get fixed)
-- Copy shortcut to Desktop for local user and for Windows365 environment (not yet interactive)
+- Create directory *C:\MultiMeta* and copy everything from the downloaded zip to *C:\MultiMeta\Tool*
+- Create a start menu entry under *%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MultiMeta*
+- Move *uninstall_MultiMeta.bat* to *C:\MultiMeta* for clean uninstall
+- Copy shortcut to Desktop for local user and for Windows365 environment
 
 ## Usage
 
 ![MultiMeta](MultiMeta_usage.gif)  
-(ca.45s after klick on OK for 94 Files on local Drive)
+
 
 ## Uninstall
 Uninstall is easily done with executing **uninstall_MultiMeta.bat** under *C:\MultiMeta*.
@@ -49,7 +49,7 @@ I came across multiple website that helped me during development. Here are some 
 on SS64 and its forum I learnt alot about Dos and Don'ts with Batch. This is my Goto ressource when it comes to Batch.  
 The forum provides many tricks and interresting ideas. Definately worth a read.  
 - https://www.robvanderwoude.com/  
-Rob van der Woude provides very helpful informations on his site. He has many code examples which have perfect desciptions how they work.  
+Rob van der Woude provides very helpful informations on his site. He has many code examples which have perfect desciptions on how they work.  
 - https://de.wikibooks.org/wiki/Batch-Programmierung  
 German Wikibook.  
 - https://en.wikibooks.org/wiki/Windows_Batch_Scripting  
