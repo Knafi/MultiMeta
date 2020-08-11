@@ -1,25 +1,26 @@
+:: Keep it silent
+@ECHO OFF
+
 rem Recursive deletion of the MultiMeta directory and temporary files
-rem Start Menu entry will also be deleted
+rem Start menu entry will also be deleted
 rem Deletes uninstall_MultiMeta.bat (self)
 
-:: keep it silent
-@echo off
 
 :: Delete shortcut on Desktop (Windows365 environment)
-del /Q "%OneDrive%\Desktop\MultiMeta.lnk" 2>nul
+DEL /Q "%OneDrive%\Desktop\MultiMeta.lnk" 2>NUL
 :: Delete shortcut on Desktop (local User)
-del /Q "%Userprofile%\Desktop\MultiMeta.lnk" 2>nul
-:: Delete temp files (these will get replaced everytime the Tool gets executed)
-del /Q "%temp%\whitelist.txt" 2>nul
-del /Q "%temp%\MediaInfoCLI.txt" 2>nul
-del /Q "%temp%\MultiMeta.csv" 2>nul
-del /Q "%temp%\whitelist.tmp" 2>nul
-del /Q "%temp%\MultiMeta.tmp" 2>nul
+DEL /Q "%Userprofile%\Desktop\MultiMeta.lnk" 2>NUL
+:: Delete temp files (these will get replaced everytime the tool gets executed)
+DEL /Q "%temp%\whitelist.txt" 2>NUL
+DEL /Q "%temp%\MediaInfoCLI.txt" 2>NUL
+DEL /Q "%temp%\MultiMeta.csv" 2>NUL
+DEL /Q "%temp%\whitelist.tmp" 2>NUL
+DEL /Q "%temp%\MultiMeta.tmp" 2>NUL
 :: Delete start menu entry
-RD /S /Q "%appdata%\Microsoft\Windows\Start Menu\Programs\MultiMeta" 2>nul
+RD /S /Q "%appdata%\Microsoft\Windows\Start Menu\Programs\MultiMeta" 2>NUL
 
 :: Delete program directory. Explorer.exe needs to get restarted to delete parent directory...
-taskkill /f /im explorer.exe>nul 2>&1
-set _sd=%~dp0
-cd /d c:\
-start cmd /c rd/s/q "%_sd%">nul 2>&1&start explorer.exe>nul 2>&1
+TASKKILL /F /IM explorer.exe>NUL 2>&1
+SET _sd=%~dp0
+CD /D c:\
+Start CMD /C RD/S/Q "%_sd%">NUL 2>&1&start explorer.exe>NUL 2>&1
