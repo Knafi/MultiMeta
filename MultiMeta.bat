@@ -126,7 +126,7 @@ set /a countcur =0
 :: MediaInfo analysis with Mi-Meta.conf and whitelist
 :: Set window title according to current progress
 for /f "tokens=*" %%D in ('type %temp%\whitelist.txt') do (
-	%Mediainfo% --Inform=file://C:\MultiMeta\Tool\MI-Meta.conf "%%D">>%temp%\MediaInfoCLI.txt
+	%Mediainfo% --Inform=file://C:\MultiMeta\Tool\MI_Meta.conf "%%D">>%temp%\MediaInfoCLI.txt
 	set /a countcur +=1
 	set /a prozent=100*!countcur!/!countmax!
 	SET ProgressPercent=!prozent!
