@@ -1,7 +1,7 @@
 # MultiMeta
 
 This projekt startet with the need to analyse the metadata of countless videofiles at my work. This process often included much more than 500 files per day.
-The commandline version of [MediaInfo](https://mediaarea.net/en/MediaInfo) is used to do the analysing part. It is fast, reliable and has a the possibility to pipe  the output into a test file.
+The commandline version of [MediaInfo](https://mediaarea.net/en/MediaInfo) is used to do the analysing part. It is fast, customizable and has a the possibility to redirect the output.
 
 ![MultiMeta](MultiMeta_Gui.JPG)
 
