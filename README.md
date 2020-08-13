@@ -8,15 +8,16 @@ The commandline version of [MediaInfo](https://mediaarea.net/en/MediaInfo) is us
 
 
 
+
+
+The computers we use on site are heavily restricted by our Administrators and are also part of an Office365 environment which forced the use of many workarounds to not trigger the [UAC](https://en.wikipedia.org/wiki/User_Account_Control). The biggest restriction was not beeing able to install anything. Which brought up the interesting challenge of using Batch only
+
+
 ![MultiMeta](MultiMeta/Resources/MEDIA/MultiMeta_Gui.JPG)
 
 
-
-The computers we use on site are heavily restricted by our Administrators and are also part of an Office365 environment which forced the use of many workarounds to not trigger the UAC. The biggest restriction was not beeing able to install anything. Which brought up the interesting challenge of using Batch only
-
-
 ## What is MultiMeta?
-With MultiMeta it is possible to use MediaInfo on a whole directory tree. You get asked to choose the parent directory and everything (checked against a whitelist) inside said directory will get analysed and reported with your set parameters (not yet interactive). Right now those parameters are:  
+With MultiMeta it is possible to recursively analyse multiple videofiles at once. You choose the parent directory and every file (checked against a whitelist) inside said directory will get analysed. For my purpose I needed only a few parameters:
 - Filename (with full path), 
 - Filesize
 - Duration
@@ -25,8 +26,8 @@ With MultiMeta it is possible to use MediaInfo on a whole directory tree. You ge
 - Scan-Type
 - Format  
 
-Once the analysing part is complete a HTML page with the report will open in your standard browser.
-From here on you can print, print to PDF or open the report in Excel.
+Once the analysing part is complete, a HTML page with the report will open in your default browser.
+From here on you can print, print to PDF or open the report in Excel. 
 
 
 ## Install
