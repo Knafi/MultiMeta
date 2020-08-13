@@ -1,14 +1,21 @@
 # MultiMeta
+<p align="center">
+  <img src="MultiMeta/MultiMeta.ico" />
+</p>
 
 This projekt startet with the need to analyse the metadata of countless videofiles at my work. This process often included much more than 500 files per day.
 The commandline version of [MediaInfo](https://mediaarea.net/en/MediaInfo) is used to do the analysing part. It is fast, customizable and has a the possibility to redirect the output.
 
-![MultiMeta](MultiMeta_Gui.JPG)
+
+
+![MultiMeta](MultiMeta/Resources/MEDIA/MultiMeta_Gui.JPG)
+
+
 
 The computers we use on site are heavily restricted by our Administrators and are also part of an Office365 environment which forced the use of many workarounds to not trigger the UAC. The biggest restriction was not beeing able to install anything. Which brought up the interesting challenge of using Batch only
 
 
-## What does MultiMeta
+## What is MultiMeta?
 With MultiMeta it is possible to use MediaInfo on a whole directory tree. You get asked to choose the parent directory and everything (checked against a whitelist) inside said directory will get analysed and reported with your set parameters (not yet interactive). Right now those parameters are:  
 - Filename (with full path), 
 - Filesize
