@@ -1,6 +1,8 @@
 This Help is from: https://fossies.org/linux/misc/MediaInfo_CLI_20.08_GNU_FromSource.tar.xz/  
 *Attention: The text wasn't changed. I just reformatted it a bit for readability.*
 
+---
+
 Note from MediaInfo author:  
 > this document was written by someone else.  
 > I provide no support about it.  
