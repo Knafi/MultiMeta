@@ -24,6 +24,7 @@ Quelle = Web.Page(File.Contents(&quot;file:///C:\MultiMeta\Tool\WORK\MultiMeta.h
 Change scanned paramterers (first row headers) here:
 ```  
 File Size Duration Resolution FPS Scan-Type Format  
-```  
+```
+```
 {&quot;File&quot;, type text}, {&quot;Size&quot;, type text}, {&quot;Duration&quot;, type time}, {&quot;Resolution&quot;, type text}, {&quot;FPS&quot;, Int64.Type}, {&quot;Scan-Type&quot;, type text}, {&quot;Format&quot;, type text}
 ```
