@@ -3,14 +3,10 @@
   <img src="MultiMeta/MultiMeta.ico" />
 </p>
 
-This projekt startet with the need to analyse the metadata of countless videofiles at my work. This process often included much more than 500 files per day.
-The commandline version of [MediaInfo](https://mediaarea.net/en/MediaInfo) is used to do the analysing part. It is fast, customizable and has a the possibility to redirect the output.
+This projekt startet with the need to analyse the metadata of countless videofiles at my work. This process often included way more than 500 files per day.
+The commandline version of [MediaInfo](https://mediaarea.net/en/MediaInfo) is used to do the analysing part. It is fast, customizable and has the possibility to redirect the output.
 
-
-
-
-
-The computers we use on site are heavily restricted by our Administrators and are also part of an Office365 environment which forced the use of many workarounds to not trigger the [UAC](https://en.wikipedia.org/wiki/User_Account_Control). The biggest restriction was not beeing able to install anything. Which brought up the interesting challenge of using Batch only
+The computers we use on site are heavily restricted by our Administrators and are also part of an Office365 environment which forced the use of many workarounds to not trigger the [UAC](https://en.wikipedia.org/wiki/User_Account_Control). The biggest restriction was not beeing able to install anything. Which brought up the interesting challenge of using Batch only.
 
 
 ![MultiMeta](MultiMeta/Resources/MEDIA/MultiMeta_Gui.JPG)
@@ -36,7 +32,8 @@ The computers we use on site are heavily restricted by our Administrators and ar
 
 
 ## What is MultiMeta?
-With MultiMeta it is possible to recursively analyse multiple videofiles at once. You choose the parent directory and every file (checked against a whitelist) inside said directory will get analysed. For my purpose I needed only a few parameters:
+MultiMeta is my way to use the MediaInfo CLI version on multiple files. It is possible to recursively analyse against a whitelist of specified filetypes.  
+For my purpose I needed only a few parameters:  
 - Filename (with full path), 
 - Filesize
 - Duration
@@ -44,6 +41,7 @@ With MultiMeta it is possible to recursively analyse multiple videofiles at once
 - FPS
 - Scan-Type
 - Format  
+
 
 Once the analysing part is complete, a HTML page with the report will open in your default browser.
 From here on you can print, print to PDF or open the report in Excel. 
