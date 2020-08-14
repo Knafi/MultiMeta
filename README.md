@@ -27,7 +27,7 @@ The computers we use on site are heavily restricted by our Administrators and ar
       * [MediaInfo CLI](MultiMeta/Resources/Documentation/MI_CLI_help.md)
       * [Office Data Connection](MultiMeta/Resources/Documentation/ODC.md)
    * [Credits](https://github.com/Knafi/MultiMeta#credits)
-   * [License](MultiMeta/Resources/Documentation/LICENSE)
+   * [License](LICENSE)
 
 
 
