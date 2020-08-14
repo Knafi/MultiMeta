@@ -104,8 +104,9 @@ if ".%myvar%" == ".target value" statement
 ## Batch Processing Example
 
 If a file C:\video\USA Holiday.mpg contains AC-3 audio, then this may be determined and used in the following C:\conversion.bat called using:
-
+```
 C:\conversion.bat C:\video\USA Holiday.mpg
+```
 
 ### conversion.bat
 ```
