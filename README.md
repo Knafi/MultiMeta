@@ -15,6 +15,25 @@ The computers we use on site are heavily restricted by our Administrators and ar
 
 ![MultiMeta](MultiMeta/Resources/MEDIA/MultiMeta_Gui.JPG)
 
+## Table of contents
+
+
+   * [Readme.md]()
+   * [Table of contents]()
+   * [What is MultiMeta]()
+   * [Installation]()
+   * [Usage]()
+      * [Analysing]()
+      * [Report]()
+   * [Uninstall]()
+   * [ToDo]()
+   * [Useful Links]()
+      * [MediaInfo CLI](MultiMeta/Resources/Documentation/MI_CLI_help.md)
+      * [Office Data Connection](MultiMeta/Resources/Documentation/ODC.md)
+   * [Credits]()
+   * [License]()
+
+
 
 ## What is MultiMeta?
 With MultiMeta it is possible to recursively analyse multiple videofiles at once. You choose the parent directory and every file (checked against a whitelist) inside said directory will get analysed. For my purpose I needed only a few parameters:
