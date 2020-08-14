@@ -5,15 +5,17 @@ MultiMeta uses an Office Data Connection templatefile for viewing and sortig the
 MultiMeta.odc
 ```
 
+Tis file was created and preformatted with EXCEL 365 (current version 1912). 
+
 For security reasons those files are and should be blocked by default.
 Read here for more:
 https://support.microsoft.com/en-us/office/block-or-unblock-external-content-in-office-documents-10204ae0-0621-411f-b0d6-575b0847a795?ui=en-us&rs=en-us&ad=us
 
-The file was created and preformatted with EXCEL 365 (current version 1912). 
 
 
 To customize it you need to edit Line 23:
-
+  
+  
 Change path to HTML report here:
 ```
 Quelle = Web.Page(File.Contents(&quot;file:///C:\MultiMeta\Tool\WORK\MultiMeta.html&quot;)
