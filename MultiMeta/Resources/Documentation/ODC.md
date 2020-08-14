@@ -5,9 +5,9 @@ MultiMeta uses an Office Data Connection templatefile for viewing and sortig the
 MultiMeta.odc
 ```
 
-Tis file was created and preformatted with EXCEL 365 (current version 1912). 
+This file was created and preformatted with EXCEL 365 (current version 1912). 
 
-For security reasons those files are and should be blocked by default.
+For security reasons those files are and should be blocked by default. You have to allow the use per session.  
 Read here for more:
 https://support.microsoft.com/en-us/office/block-or-unblock-external-content-in-office-documents-10204ae0-0621-411f-b0d6-575b0847a795?ui=en-us&rs=en-us&ad=us
 
