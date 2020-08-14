@@ -18,20 +18,20 @@ The computers we use on site are heavily restricted by our Administrators and ar
 ## Table of contents
 
 
-   * [Readme.md]()
-   * [Table of contents]()
-   * [What is MultiMeta]()
-   * [Installation]()
-   * [Usage]()
+   * [Readme.md](README.md)
+   * [Table of contents](https://github.com/Knafi/MultiMeta#table-of-contents)
+   * [What is MultiMeta](https://github.com/Knafi/MultiMeta#what-is-multimeta)
+   * [Installation](MultiMeta/Resources/Documentation/Installation.md)
+   * [Usage](https://github.com/Knafi/MultiMeta#usage)
       * [Analysing]()
       * [Report]()
-   * [Uninstall]()
-   * [ToDo]()
-   * [Useful Links]()
+   * [Uninstall](MultiMeta/Resources/Documentation/uninstall.md)
+   * [ToDo](https://github.com/Knafi/MultiMeta#todo)
+   * [Useful Links](MultiMeta/Resources/Documentation/Useful_Links.md)
       * [MediaInfo CLI](MultiMeta/Resources/Documentation/MI_CLI_help.md)
       * [Office Data Connection](MultiMeta/Resources/Documentation/ODC.md)
-   * [Credits]()
-   * [License]()
+   * [Credits](https://github.com/Knafi/MultiMeta#credits)
+   * [License](MultiMeta/Resources/Documentation/LICENSE)
 
 
 
@@ -48,39 +48,16 @@ With MultiMeta it is possible to recursively analyse multiple videofiles at once
 Once the analysing part is complete, a HTML page with the report will open in your default browser.
 From here on you can print, print to PDF or open the report in Excel. 
 
-
-## Install
-In order to install MultiMeta you have to execute the **install_MultiMeta.bat** from the downloaded directory.
-This script will do the following:
-- Create directory *C:\MultiMeta* and copy everything from the downloaded zip to *C:\MultiMeta\Tool*
-- Create a start menu entry under *%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MultiMeta*
-- Move *uninstall_MultiMeta.bat* to *C:\MultiMeta* for clean uninstall
-- Copy shortcut to Desktop for local user and for Windows365 environment
-
 ## Usage
 
-![MultiMeta](MultiMeta_usage.gif)  
+![MultiMeta](MultiMeta/Resources/MEDIA/MultiMeta_usage.gif)  
 
+## ToDo
 
-## Uninstall
-Uninstall is easily done with executing **uninstall_MultiMeta.bat** under *C:\MultiMeta*.
-This script will have the following effects:
-- Desktop shortcuts (local and Windows365) will get deleted
-- Temp files will get deleted
-- Start menu entry will get deleted
-- Explorer.exe will get stopped, program directory and the uninstall script will get deleted and Explorer.exe will get restarted (cleanest way so far)
-
-## Useful Links
-I came across multiple website that helped me during development. Here are some of them. The rest is listed under Credits.  
-- https://ss64.com/nt/  
-on SS64 and its forum I learnt alot about Dos and Don'ts with Batch. This is my Goto ressource when it comes to Batch.  
-The forum provides many tricks and interresting ideas. Definately worth a read.  
-- https://www.robvanderwoude.com/  
-Rob van der Woude provides very helpful informations on his site. He has many code examples which have perfect desciptions on how they work.  
-- https://de.wikibooks.org/wiki/Batch-Programmierung  
-German Wikibook.  
-- https://en.wikibooks.org/wiki/Windows_Batch_Scripting  
-Similiar english version.  
+- [ ] Update MediaInfo CLI to 20.08
+- [ ] Add multiple choice for parameters to analyse
+- [ ] Fix odc templatefile not working in older office versions
+- [ ] ...
 
 
 ## Credits
