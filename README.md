@@ -56,7 +56,7 @@ From here on you can print, print to PDF or open the report in Excel.
 
 - [ ] Update MediaInfo CLI to 20.08
 - [ ] Add multiple choice for parameters to analyse
-- [ ] Fix odc templatefile not working in older office versions
+- [ ] Fix odc templatefile to work with older office versions
 - [ ] ...
 
 
