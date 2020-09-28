@@ -32,7 +32,7 @@ The computers we use on site are heavily restricted by our Administrators and ar
 
 
 ## What is MultiMeta?
-MultiMeta is my way to use the MediaInfo CLI version on multiple files. It is possible to recursively analyse against a whitelist of specified filetypes.  
+MultiMeta provides a way to use the MediaInfo CLI version on multiple files. It is possible to recursively analyse against a whitelist of specified filetypes.  
 For my purpose I needed only a few parameters:  
 - Filename (with full path), 
 - Filesize
