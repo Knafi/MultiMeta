@@ -50,7 +50,7 @@ From here on you can print, print to PDF or open the report in Excel.
 ![MultiMeta](MultiMeta/Resources/MEDIA/MultiMeta_usage.gif)  
 
 Start MultiMeta via desktop shortcut or by seaching for it in the Windows start menu. 
-A dialogue will open prompting you to choose a directory to analyse. After clicking okay the process will start.
+A dialogue will open prompting you to choose a directory to analyse. After clicking OK the process will start.
 
 ## ToDo
 
