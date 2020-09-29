@@ -17,6 +17,7 @@ The computers we use on site are heavily restricted by our Administrators and ar
    * [Readme.md](README.md)
    * [Table of contents](https://github.com/Knafi/MultiMeta#table-of-contents)
    * [What is MultiMeta](https://github.com/Knafi/MultiMeta#what-is-multimeta)
+       * [Files](https://github.com/Knafi/MultiMeta#files)
    * [Installation](MultiMeta/Resources/Documentation/Installation.md)
    * [Usage](https://github.com/Knafi/MultiMeta#usage)
        * [Report](MultiMeta/Resources/Documentation/Report.md)
@@ -44,6 +45,20 @@ For my purpose I needed only a few parameters:
 
 Once the analysing part is complete, a HTML page with the report will open in your default browser.
 From here on you can print, print to PDF or open the report in Excel. 
+
+## Files
+
+* [MI_Meta.conf](MultiMeta/MI_Meta.conf) - This file sets the parameters which MediaInfo will analyse
+* [MediaInfo.exe](MultiMeta/MediaInfo.exe) - CommandLine version of MediaInfo
+* [MultiMeta.bat](MultiMeta/MultiMeta.bat) - This is the main tool
+* [MultiMeta.conf](MultiMeta/MultiMeta.conf) - Whitelist file. Sets the allowed file extensions
+* [MultiMeta.ico](MultiMeta/MultiMeta.ico) - Icon
+* [MultiMeta.lnk](MultiMeta/MultiMeta.lnk) - Shortcut. Gets copied to Desktop
+* [MultiMeta.odc](MultiMeta/MultiMeta.odc) - Office Data Conection for Microsoft Excel
+* [favicon.ico](MultiMeta/favicon.ico) - Favicon for HTML Report (Works only in Firefox... ToDo maybe...)
+* [install_MultiMeta.bat](MultiMeta/install_MultiMeta.bat) - Will create shortcuts and copies Files to c:\MultiMeta)
+* [uninstall_MultiMeta.bat](MultiMeta/uninstall_MultiMeta.bat) - Will delete everything and restart explorer.exe
+
 
 ## Usage
 
