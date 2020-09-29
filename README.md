@@ -17,7 +17,7 @@ The computers we use on site are heavily restricted by our Administrators and ar
    * [Readme.md](README.md)
    * [Table of contents](https://github.com/Knafi/MultiMeta#table-of-contents)
    * [What is MultiMeta](https://github.com/Knafi/MultiMeta#what-is-multimeta)
-       * [Files](https://github.com/Knafi/MultiMeta#files) 
+       * [Files](https://github.com/Knafi/MultiMeta/blob/master/README.md#files) 
    * [Installation](MultiMeta/Resources/Documentation/Installation.md)
    * [Usage](https://github.com/Knafi/MultiMeta#usage)
        * [Report](MultiMeta/Resources/Documentation/Report.md)
@@ -57,7 +57,7 @@ From here on you can print, print to PDF or open the report in Excel.
 * [MultiMeta.odc](MultiMeta/MultiMeta.odc) - Office Data Conection for Microsoft Excel
 * [favicon.ico](MultiMeta/favicon.ico) - Favicon for HTML Report (Works only in Firefox... ToDo maybe...)
 * [install_MultiMeta.bat](MultiMeta/install_MultiMeta.bat) - Will create shortcuts and copies Files to c:\MultiMeta)
-* [uninstall_MultiMeta.bat](MultiMeta/uninstall_MultiMeta.bat) - Will delete everything and restart explorer.exe
+* [uninstall_MultiMeta.bat](MultiMeta/uninstall_MultiMeta.bat) - Will delete everything and restart explorer.exe  
 
 
 ## Usage
