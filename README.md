@@ -3,7 +3,7 @@
   <img src="MultiMeta/MultiMeta.ico" />
 </p>
 
-This projekt startet with the need to analyse the metadata of countless videofiles at my work. This process often included way more than 500 files per day.
+This project startet with the need to analyse the metadata of countless videofiles at my work. This process often included way more than 500 files per day.
 The commandline version of [MediaInfo](https://mediaarea.net/en/MediaInfo) is used to do the analysing part. It is fast, customizable and has the possibility to redirect the output.
 
 The computers we use on site are heavily restricted by our Administrators and are also part of an Office365 environment which forced the use of many workarounds to not trigger the [UAC](https://en.wikipedia.org/wiki/User_Account_Control). The biggest restriction was not beeing able to install anything. Which brought up the interesting challenge of using Batch only.
