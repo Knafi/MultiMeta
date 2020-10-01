@@ -184,7 +184,7 @@ FOR /F "tokens=2 delims==" %%a IN ('wmic logicaldisk %directory:~0,2% get Volume
 	ECHO ^<BODY^>
 	ECHO Report created by ^<b^>%user%^</b^> ^</^>
 	ECHO - %ldt% ^</br^>
-	ECHO Scannter directory: ^<b^>
+	ECHO Scanned directory: ^<b^>
 	ECHO %directory:~0,2%\%DriveLabel%\%directory:~3%^</br^>^</b^>
 	ECHO ^<b^>%countmax% File^(s^)^</b^> analysed. ^<input type="button" value="Print" onClick="window.print()"^>^</br^>
 	ECHO ^<a href="file:///%Installdir%\MultiMeta.odc"^>Open in Excel^</a^>
